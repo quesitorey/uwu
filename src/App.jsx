@@ -8,6 +8,7 @@ import Navbar from './pages/Navbar'
 import Home from './pages/Home'
 import Letters from './pages/Letters'
 import Letter1 from './pages/database/Letter1'
+import Letter2 from './pages/database/Letter2'
 
 export default function App() {
   return (
@@ -33,6 +34,10 @@ export default function App() {
           <Route
           path="/letters/1"
           element={ <Letter1/> }  
+          />
+          <Route
+          path="/letters/2"
+          element={ <Letter2/> }  
           />
         </Routes>
       </HashRouter>

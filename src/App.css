@@ -157,11 +157,11 @@ body{
 .body-letter{
   border-radius: 10px;
   margin-top: 2rem;
-  width: 50rem;
+  width: auto;
   heigth: auto;
   background-color: white;
 }
 .letter{
-  padding: 2rem;
-  
+  padding: 2rem 5rem;
+  line-height: 30px
 }
