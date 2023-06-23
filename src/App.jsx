@@ -9,6 +9,7 @@ import Home from './pages/Home'
 import Letters from './pages/Letters'
 import Letter1 from './pages/database/Letter1'
 import Letter2 from './pages/database/Letter2'
+import Letter3 from './pages/database/Letter3'
 
 export default function App() {
   return (
@@ -38,6 +39,10 @@ export default function App() {
           <Route
           path="/letters/2"
           element={ <Letter2/> }  
+          />
+          <Route
+          path="/letters/3"
+          element={ <Letter3/> }  
           />
         </Routes>
       </HashRouter>
