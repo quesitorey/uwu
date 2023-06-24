@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 import Navbar from './pages/Navbar'
 import Home from './pages/Home'
+import Subscribe from './pages/Subscribe'
 import Letters from './pages/Letters'
 import Letter1 from './pages/database/Letter1'
 import Letter2 from './pages/database/Letter2'
@@ -29,7 +30,10 @@ export default function App() {
           path="/letters"
           element={ <Letters/> }
           />
-
+          <Route
+          path="/subscribe"
+          element={ <Subscribe/> }
+          />
           { /*LETTERS */ }
           
           <Route

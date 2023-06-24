@@ -165,3 +165,56 @@ body{
   padding: 2rem 5rem;
   line-height: 30px
 }
+
+/* SUBSCRIPTION PAGE*/
+.subscribe-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+.subscribe-box{
+  padding: 4rem;
+  border-radius: 0 0 10px 10px;
+  background-color: white;
+  width: 30rem;
+  heigth: 30rem;
+  text-align: center;
+}
+.subscribe-box-up{
+  border-radius: 10px 10px 0 0;
+  height: 4rem;
+  width: 30rem;
+  background-color: var(--colour-1);
+  text-align: center;
+}
+.subscribe-box-up > p{
+  margin-top: 1rem;
+  color: white;
+  font-size:1.5rem;
+}
+
+
+.input-email{
+  width: 20rem;
+  border: 0;
+  outline: none;
+  padding: 15px 15px;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 30px;
+}
+
+.checkbox{
+  
+  border-radius: 50%;
+}
+button{
+  border: 0;
+  border-radius: 10px;
+  background: var(--colour-1);
+  color: white;
+  padding: 15px;
+}
