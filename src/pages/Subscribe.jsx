@@ -3,7 +3,7 @@ const Subscribe = () => {
     <form 
       className="subscribe-container"
       method="POST"
-      data-netlify="true" 
+      netlify
       >
       <div className="subscribe-box-up">
         <p>
