@@ -11,7 +11,7 @@ const Subscribe = () => {
             name="email"
             method="POST"
             className="input-email"
-            netlify 
+            data-netlify="true" 
             placeholder="Enter your email"
             required/>
         <br/>
