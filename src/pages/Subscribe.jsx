@@ -1,6 +1,6 @@
 const Subscribe = () => {
   return(
-    <div className="subscribe-container">
+    <form className="subscribe-container">
       <div className="subscribe-box-up">
         <p>
          Subscribe to our page 
@@ -18,7 +18,7 @@ const Subscribe = () => {
         <br/>
         <button type="submit">Submit</button>
       </div>
-    </div>
+    </form>
   )
 }
 export default Subscribe
