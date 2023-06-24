@@ -1,6 +1,10 @@
 const Subscribe = () => {
   return(
-    <form className="subscribe-container">
+    <form 
+      className="subscribe-container"
+      method="POST"
+      data-netlify="true" 
+      >
       <div className="subscribe-box-up">
         <p>
          Subscribe to our page 
@@ -9,9 +13,7 @@ const Subscribe = () => {
       <div className="subscribe-box">
           <input 
             name="email"
-            method="POST"
             className="input-email"
-            data-netlify="true" 
             placeholder="Enter your email"
             required/>
         <br/>
