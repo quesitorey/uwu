@@ -2,7 +2,7 @@ const Subscribe = () => {
   return(
     <form 
       className="subscribe-container"
-      method="POST"
+      action="POST"
       netlify
       >
       <div className="subscribe-box-up">
