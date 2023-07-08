@@ -7,11 +7,12 @@ import {
 import Navbar from './pages/Navbar'
 import Home from './pages/Home'
 import Letters from './pages/Letters'
-import Random from './pages/Random'
+
 import Letter1 from './pages/database/Letter1'
 import Letter2 from './pages/database/Letter2'
 import Letter3 from './pages/database/Letter3'
 import Letter4 from './pages/database/Letter4'
+import Letter5 from './pages/database/Letter5'
 
 export default function App() {
   
@@ -49,6 +50,10 @@ export default function App() {
           <Route
           path="/letters/4"
           element={ <Letter4/> } 
+          />
+          <Route
+          path="/letters/5"
+          element={ <Letter5/> } 
           />
         </Routes>
       </HashRouter>
