@@ -19,7 +19,7 @@ Te conocí a ti,<br/>
 
 dibujando un futuro juntos encima de mis cicatrices,<br/>
 
-a ver si dejaban de sangrar.<br/>
+a ver si ya no se abrian mas.<br/>
 
 Te conocí a ti,<br/>
 
