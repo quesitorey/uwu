@@ -14,6 +14,7 @@ import Letter3 from './pages/database/Letter3'
 import Letter4 from './pages/database/Letter4'
 import Letter5 from './pages/database/Letter5'
 import Letter6 from './pages/database/Letter6'
+import Letter7 from './pages/database/Letter7'
 
 export default function App() {
   
@@ -59,6 +60,10 @@ export default function App() {
           <Route
           path="/letters/6"
           element={ <Letter6/> } 
+          />
+          <Route
+          path="/letters/7"
+          element={ <Letter7/> } 
           />
         </Routes>
       </HashRouter>
