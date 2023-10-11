@@ -30,6 +30,9 @@ const Letters = () => {
       <div className="letter-box">
         <Link className="letters" to="/letters/9">9</Link>
       </div>
+      <div className="letter-box">
+        <Link className="letters" to="/letters/10">10</Link>
+      </div>
     </div>
   )
 }
