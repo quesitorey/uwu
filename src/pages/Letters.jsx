@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 const Letters = () => {
 
-  return(
+  return (
     <div className="letter-body">
       <div className="letter-box">
         <Link className="letters" to="/letters/1">1</Link>
@@ -38,6 +38,9 @@ const Letters = () => {
       </div>
       <div className="letter-box">
         <Link className="letters" to="/letters/12">12</Link>
+      </div>
+      <div className="letter-box">
+        <Link className="letters" to="/letters/13">13</Link>
       </div>
     </div>
   )
